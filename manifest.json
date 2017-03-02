@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Stupid Blocker",
+  "description": "Block Timekiller websites",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["https://www.facebook.com/*","https://www.youtube.com/*","https://www.quora.com/*"],
+      "js": ["basic.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
