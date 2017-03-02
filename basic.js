@@ -1,1 +1,1 @@
-window.location.replace("http://google.com/");
+window.location.replace("https://sahukrishna.github.io/redirect.html");
