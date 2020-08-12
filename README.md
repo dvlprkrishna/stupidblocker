@@ -6,6 +6,9 @@ Block Time killer websites like facebook, quora , etc. to help you focus on stuf
 
 Download [```StupidBlocker.crx```](http://dvlpr.in/stupidblocker.html)  and drag & drop in the manage extension page → ```chrome://extensions/```
 
+or Unzip the ```.crx``` file, go to ```chrome://extensions/``` enable Developer Mode → load unpacked → and select extracted folder.
+
+
 :construction: Work in progress
 
 Features that will be added soon.
