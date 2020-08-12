@@ -4,7 +4,7 @@ Block Time killer websites like facebook, quora , etc. to help you focus on stuf
 
 ## Installation
 
-Download ```StupidBlocker.crx``` and drag & drop in the manage extension page → [Here]('chrome://extensions/')
+Download ```StupidBlocker.crx``` and drag & drop in the manage extension page → ```chrome://extensions/```
 
 :construction: Work in progress
 
