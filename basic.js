@@ -1,1 +1,1 @@
-window.location.replace("https://sahukrishna.github.io/redirect.html");
+window.location.replace("https://dvlpr.in/quote.html");

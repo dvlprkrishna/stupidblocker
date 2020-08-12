@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Stupid Blocker</title>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+            <script src="/assets/js/html5shiv.js"></script>
+            <script src="/assets/js/respond.min.js"></script>
+            <![endif]-->
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Bootstrap 3 CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Main Style CSS -->
+    <style type="text/css">
+        body {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            line-height: 1.42857143;
+
+        }
+
+        #quote h1 {
+            font-weight: 300;
+            font-size: 1.9em;
+            line-height: 48px;
+            margin: 0 .5rem;
+            text-align: center;
+        }
+
+        #quote a {
+            color: #111212;
+            text-decoration: none;
+            margin-bottom: 2px;
+            border-bottom: 2px solid #a0a0a0;
+        }
+
+        #quote a:hover {
+            border-bottom: 2px solid #FDD55C;
+        }
+
+        #quote {
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <section id="quote">
+        <blockquote>
+            <p>Fetching your Motivation</p>
+            <cite class="blockquote-footer pull-right">- <i>Internet</i></cite>
+        </blockquote>
+    </section>
+
+    <!-- Jquery Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+        var quoteWarehouse = [
+            "If you are seeing this you seriously need to work towards your goal",
+            "You seriously don't wanna visit that site and Procrastinate, Do you?",
+            "Think of Goal, Seriously you're just delaying it.",
+            "Get back to work ASAP!",
+        ];
+        var getRandomQuote = Math.floor(Math.random() * Math.floor(quoteWarehouse.length));
+        console.log('getRandomQuote', getRandomQuote);
+        $('#quote blockquote p').text(quoteWarehouse[getRandomQuote]);
+    </script>
+    <script>
+        console.log('%c\Hey,', 'font-weight: bold; font-size: 50px;color: #FDD55C; text-shadow: 3px 3px 0 #33312E');
+        console.log("You look like a web dev, cool i know a web dev too.")
+        console.log("He lives at - https://dvlpr.in/")
+    </script>
+</body>
+
+</html>

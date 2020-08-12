@@ -1,13 +1,23 @@
 {
   "manifest_version": 2,
-
   "name": "Stupid Blocker",
-  "description": "Block Timekiller websites",
-  "version": "1.0",
-
+  "description": "Block Time killer websites like facebook, quora , etc. to help you focus on stuff that matters to you",
+  "version": "1.1",
+  "icons" : {
+    "128": "img/128.png",
+    "48": "img/48.png",
+    "16": "img/16.png"
+  },
+  "web_accessible_resources": [
+    "quote.html"
+  ],
   "content_scripts": [
     {
-      "matches": ["https://www.facebook.com/*","https://www.youtube.com/*","https://www.quora.com/*"],
+      "matches": ["https://www.facebook.com/*",
+                  "https://www.youtube.com/*",
+                  "https://www.quora.com/*",
+                  "https://www.reddit.com/*"
+                ],
       "js": ["basic.js"],
       "run_at": "document_start"
     }
